@@ -31,15 +31,16 @@
 
 	<!-- CORE CSS-->
 
-	<link href="{{ asset('public/css/materialize.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-	<link href="{{ asset('public/css/style.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{{ asset('/css/materialize.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+	
+	<link href="{{ asset('css/style.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
 	<!-- Custome CSS-->
-	<link href="{{ asset('public/css/custom/custom.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-	<link href="{{ asset('public/css/layouts/page-center.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{{ asset('css/custom/custom.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{{ asset('css/layouts/page-center.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
 
 	<!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
-	<link href="{{ asset('public/js/plugins/prism/prism.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-	<link href="{{ asset('public/js/plugins/perfect-scrollbar/perfect-scrollbar.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{{ asset('js/plugins/prism/prism.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="{{ asset('js/plugins/perfect-scrollbar/perfect-scrollbar.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
 
 </head>
 
@@ -116,21 +117,21 @@
   ================================================ -->
 
 <!-- jQuery Library -->
-<script type="text/javascript" src="{{ asset('public/js/plugins/jquery-1.11.2.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/jquery-1.11.2.min.js') }}"></script>
 <!--materialize js-->
-<script type="text/javascript" src="{{ asset('public/js/materialize.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/materialize.min.js') }}"></script>
 <!--prism-->
-<script type="text/javascript" src="{{ asset('public/js/plugins/prism/prism.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/prism/prism.js') }}"></script>
 <!--scrollbar-->
-<script type="text/javascript" src="{{ asset('public/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
 
 <!--plugins.js - Some Specific JS codes for Plugin Settings-->
-<script type="text/javascript" src="{{ asset('public/js/plugins.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins.min.js') }}"></script>
 <!--custom-script.js - Add your own theme custom JS-->
-<script type="text/javascript" src="{{ asset('public/js/custom-script.js') }}"></script>
-<script src="{{ asset('public/js/lib/angular_js/angular.min.js') }}"></script>
-<script src="{{ asset('public/js/main.js') }}"></script>
-<script src="{{ asset('public/js/controllers/login.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/custom-script.js') }}"></script>
+<script src="{{ asset('/js/lib/angular_js/angular.min.js') }}"></script>
+<script src="{{ asset('/js/main.js') }}"></script>
+<script src="{{ asset('/js/controllers/login.js') }}"></script>
 <script>
 	$(document).ready(function () {
 		$.ajaxSetup({

@@ -6,7 +6,7 @@ angular.module('myApp', []).config(function($interpolateProvider){
 
 var app = {};
 
-app.host = 'http://localhost/rd-int/';
+app.host = 'http://localhost/';
 
 
 

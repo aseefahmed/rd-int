@@ -11,12 +11,12 @@
     <!-- Favicons-->
     <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
     <!-- CORE CSS-->
-    <link href="{{ asset('public/css/dashboard.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{{ asset('public/js/plugins/ionRangeSlider/css/ion.rangeSlider.skinFlat.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{{ asset('public/js/plugins/jsgrid/css/jsgrid.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{{ asset('public/js/plugins/jsgrid/css/jsgrid-theme.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{{ asset('public/js/plugins/fullcalendar/css/fullcalendar.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
-    <link href="{{ asset('public/css/datetimepicker.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset('/css/dashboard.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset('/js/plugins/ionRangeSlider/css/ion.rangeSlider.skinFlat.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset('/js/plugins/jsgrid/css/jsgrid.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset('/js/plugins/jsgrid/css/jsgrid-theme.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset('/js/plugins/fullcalendar/css/fullcalendar.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="{{ asset('/css/datetimepicker.css') }}" type="text/css" rel="stylesheet" media="screen,projection">
 </head>
 <body id="layouts-horizontal" ng-app="myApp">
 
@@ -38,7 +38,7 @@
         <nav class="navbar-color">
             <div class="nav-wrapper">
                 <ul class="left">
-                    <li><h1 class="logo-wrapper"><a href="{{url('dashboard')}}" class="brand-logo darken-1"><img src="{{ asset('public/images/logo.png') }}" height="50px" alt="materialize logo"></a> <span class="logo-text">RD International</span></h1></li>
+                    <li><h1 class="logo-wrapper"><a href="{{url('dashboard')}}" class="brand-logo darken-1"><img src="{{ asset('/images/logo.png') }}" height="50px" alt="materialize logo"></a> <span class="logo-text">RD International</span></h1></li>
                 </ul>
                 <div class="header-search-wrapper hide-on-med-and-down">
                     <i class="mdi-action-search"></i>
@@ -626,17 +626,17 @@
 Scripts
 ================================================ -->
 
-<script type="text/javascript" src="{{ asset('public/js/dashboard.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/main.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/controllers/buying_orders.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/jsgrid/js/jsgrid.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/fileinput/js/fileinput.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/fileinput/js/fileinput.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/data-tables/js/jquery.dataTables.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/fullcalendar/lib/jquery-ui.custom.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/fullcalendar/lib/moment.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/plugins/fullcalendar/js/fullcalendar.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/js/datetimepicker.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/dashboard.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/main.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/controllers/buying_orders.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/jsgrid/js/jsgrid.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/fileinput/js/fileinput.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/fileinput/js/fileinput.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/data-tables/js/jquery.dataTables.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/fullcalendar/lib/jquery-ui.custom.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/fullcalendar/lib/moment.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/plugins/fullcalendar/js/fullcalendar.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('/js/datetimepicker.js') }}"></script>
 
 
 

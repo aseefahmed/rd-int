@@ -19,11 +19,11 @@ class DatabaseSeeder extends Seeder
                 $photo = $faker->numberBetween($min = 1, $max = 14);
 
 	        DB::table('users')->insert([
-	            'first_name' => $faker->firstName,
+	            'name' => $faker->firstName,
 	            'email' => $email,
-                    'password'=>Hash::make('aseefahmed'),
-                    'dept_id'=>$faker->numberBetween($min = 1, $max = 10),
-                    'designation_id'=>$faker->numberBetween($min = 1, $max = 21),
+                'password'=>Hash::make('aseefahmed'),
+                'dept_id'=>$faker->numberBetween($min = 1, $max = 10),
+                'designation_id'=>$faker->numberBetween($min = 1, $max = 21),
                     
 	        ]);
         }
